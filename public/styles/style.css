@@ -1,1 +1,184 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+.header{
+    border-bottom: 4px solid rgb(146, 208, 228);
+    background-color: black;
+}
+
+.titulo{
+    color: rgb(98, 186, 215);
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+a{
+    color: gold;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(250, 82, 110);
+}
+
+li:nth-child(3){
+    color: gold;
+    list-style-type: none;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12vh;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    text-align: start;
+    color: rgb(250, 82, 110);
+}
+
+
+.agora{
+    font-weight: bold;
+}
+
+.card{
+    height: auto;
+    width: 550px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#codigo_input{
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    border: 3px solid rgb(146, 208, 228);
+}
+
+#nome_input{
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    border: 3px solid rgb(146, 208, 228);
+}
+
+#email_input{
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    border: 3px solid rgb(146, 208, 228);
+}
+
+#senha_input{
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    border: 3px solid rgb(146, 208, 228);
+}
+
+#confirmacao_senha_input{
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    border: 3px solid rgb(146, 208, 228);
+}
+
+.botao{
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(255, 48, 83);
+    border: 0;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: rgb(98, 186, 215);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+h4{
+    color: rgb(255, 48, 83);
+    font-size: 25px;
+}
+
+.version{
+    color: rgb(98, 186, 215);
+}
+
+.banner{
+    display: flex;
+    min-height: 40vh;
+    min-width: 100%;
+    justify-content: center;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+}
+
+p{
+    color: white;
+    font-size: 40px;
+    width: 200px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.social{
+    background-color: rgb(199, 199, 199);
+    height: 100vh;
+}
+
+.boxes{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 80px;
+}
+
+body{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    height: 200px;
+}
